@@ -1,0 +1,32 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue !important;
+    min-height: 100vh;
+}
+
+body {
+    background-color: darkblue !important;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: darkblue !important;
+}
+
+.answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
